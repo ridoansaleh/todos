@@ -29,3 +29,10 @@ const VisibleTodoList = connect(
 )(TodoList)
 
 export default VisibleTodoList
+
+/* Notes
+
+  1. container component : to hook up presentational component to Redux 
+  2. mapStateToProps     : transform the current Redux store state into the props you want to pass to a presentational component 
+
+  */
