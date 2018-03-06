@@ -34,5 +34,8 @@ export default VisibleTodoList
 
   1. container component : to hook up presentational component to Redux 
   2. mapStateToProps     : transform the current Redux store state into the props you want to pass to a presentational component 
+  3. mapDispatchToProps  : inject actions to presentational component 
+  4. connect             : - a function provided by react-redux to generate container component
+                           - connect react component to Redux store
 
   */
