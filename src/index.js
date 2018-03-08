@@ -25,6 +25,8 @@ render(
       > Allows state to be updated via dispatch(action);
       > Registers listeners via subscribe(listener);
       > Handles unregistering of listeners via the function returned by subscribe(listener)
+  3. reducer  : is a pure function that has 2 params which are state and actions. 
+                Most importantly, reducer return the next state. 
 
 
 */
